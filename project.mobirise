@@ -1,0 +1,574 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 9,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/aiesec-896x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://www.facebook.com/AIESECTWNCHU/?hc_ref=NEWSFEED",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; &nbsp;中興校園據點<br>in Taiwan NCHU<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">What we do ?</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header4-0\">Out-Going Global Volunteer</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-1\">Out-Going Global Talent</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header4-2\">In-Coming Global Talent</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header5-5\">In-Coming Global Volunteer</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-6\">Front Office Vice Presidents</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-8\">Back Office Vice Presidents</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "left",
+              "font-size": "22px",
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "font-size": "48px",
+              "color": "#ff0000"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "What is AIESEC ?",
+          "text": "AIESEC is a global platform for young people to explore and develop their leadership potential. We are a non-political, independent, not-for-profit organisation run by students and recent graduates of institutions of higher education. Its members are interested in world issues, leadership and management. AIESEC does not discriminate on the basis of ethnicity, gender, sexual orientation, religion or national / social origin.<br>Since we were founded, we have engaged and developed over 1,000,000 young people who have been through an AIESEC experience. The impact of our organisation can be seen through our alumni who represent business, NGO and world leaders, including one Nobel Peace Prize laureate, Martti Atisaari of Finland.<br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"http://aiesec.org/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">International AIESEC</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"http://aiesec.org.tw/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">AIESEC in Taiwan</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://www.facebook.com/pg/AIESECTWNCHU/photos/?ref=page_internal\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">AIESEC in Taiwan NCHU</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#fcff00"
+            },
+            ".mbr-section-lead SPAN": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header4-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/IDJQOJCFPng?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Out-Going Global Volunteer",
+          "text": "<span style=\"font-style: normal;\">海外成長（AIESEC Global Volunteer）的研習生會在國外與NGO、學校從事與社會發展相關的工作。相關主題涉及兒童權益、婦女權益、愛滋病防護、環境保護等不同議題，每一個專案都會貢獻至聯合國永續發展目標17項的目標。</span><br><span style=\"font-style: normal;\">立足於AIESEC發展較成熟的發展中國家，青年可以和來自世界各國的研習生一起工作、生活，認識世界各地的文化；與此同時，我們也希望研習生能有較強的適應能力和獨立生活能力，積極面對困難的態度。<br>70%以上的專案會由當地的NGO或學校提供住宿；60%的專案提供一餐。具體細節需要根據具體媒合到的專案而定。</span><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://aiesec.org.tw/ogcdp/#toggle-id-2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Know more ...</a> "
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffff00",
+              "font-size": "60px"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#fffbfb"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Out-Going Global Talent",
+          "text": "<span style=\"font-style: normal;\">1. 國際化工作環境<br>越來越競爭的國際市場，如何在國際間找到自己的能力定位，將是未來和人生重要課</span><br><span style=\"font-style: normal;\">2.&nbsp;</span><span style=\"font-style: normal;\">大量困難與挑戰<br>畢業前後，都是職涯最黃金時段，快速得接受挑戰，取得最大成長！<br>3.&nbsp;國際移動力培養<br>未來衡量人才重要指標-跨國移動力，成為國際間有實力的移動人才！<br>4.&nbsp;跨國團隊合作<br>與跨國夥伴共事非學校教育可以提供，透過實際經驗累積國際間合作能力。</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://aiesec.org.tw/intern-abroad/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Know more ...</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.facebook.com/NCHUOGT/?notif_t=page_fan&amp;notif_id=1490765835883280\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join the project now !</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#ffff00"
+            },
+            ".mbr-section-lead": {
+              "font-size": "24px"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-size": "22px",
+              "text-align": "center"
+            },
+            ".mbr-section-lead DIV": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header4-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/JtfpuAmgSy8?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "In-Coming Global Talent",
+          "text": "<span style=\"font-style: normal;\">服務流程</span><br><span style=\"font-style: normal;\">1. 確定合作</span>&nbsp;:&nbsp;<span style=\"font-style: normal;\">詳細訂出欲審核標準</span><br><span style=\"font-style: normal;\">2. 尋找實習生 : 定期提供面試的名單</span><br><span style=\"font-style: normal;\">3. 篩選 : 先行篩選, 以節省公司面試時間</span><br><span style=\"font-style: normal;\">4. 簽證與實習引進流程 : 協助辦理相關手續</span><br><span style=\"font-style: normal;\">5. 協助研習生 : 使研習生能盡快融入台灣環境</span><span style=\"font-style: normal; line-height: 1.5;\">&nbsp; &nbsp; &nbsp;&nbsp;</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"http://aiesec.org.tw/partnership-with-aiesec/global-talent/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">know more ...</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://jerrygerry1212.wixsite.com/aiesec-in-nchu\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join the project now!</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<b>If not now, then when?<br>If not you, then who?</b>",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff200",
+              "font-size": "60px"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-5",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "In-Coming Global Volunteer",
+          "text": "<span style=\"font-style: normal;\">目前9大合作國家</span><br><span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">1. 馬來西亞 &nbsp; &nbsp; &nbsp;4. 德國 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7. 印尼</span><br><span style=\"font-style: normal;\">2. 新加坡 &nbsp; &nbsp; &nbsp; &nbsp; 5. 加拿大 &nbsp; &nbsp; &nbsp; 8. 捷克</span><br><span style=\"font-style: normal;\">3. 澳洲 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6. 香港 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9. 日本</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://aiesec.org.tw/partnership-with-aiesec/ngos/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Know more ...</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "color": "#fff200"
+            }
+          },
+          "_anchor": "features1-6",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16864120-1355972447799017-1123588657780349025-n-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Out-Going<br>Global Volunteer",
+          "subtitle1": "<span style=\"font-style: normal;\"><b>Vice President</b></span>",
+          "caption1": "【跌跌撞撞，<br>直到自己蛻變成美麗的蝴蝶】",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.facebook.com/chinweichi1217\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACT</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16865234-1455285777856203-5401295078230661675-n-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Out-Going<br>Global Talent",
+          "subtitle2": "<span style=\"font-style: normal;\"><b>Vice President</b></span>",
+          "caption2": "【走到更近的地方，<br>才發現有更遠的距離】<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.facebook.com/profile.php?id=100001243856668\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACT</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16864947-1569250593088446-561418275239430193-n-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "In-Coming<br>Global Talent",
+          "subtitle3": "<span style=\"font-style: normal;\"><b>Vice President</b></span>",
+          "caption3": "【不是每個人都可以完成夢想，<br>但只要全力以赴，<br>每個人都可以沒有遺憾】",
+          "button3": "<a data-app-btn=\"true\" href=\"https://www.facebook.com/profile.php?id=100000105619979\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACT</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16806852-1407925755946995-7746495390402832008-n-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "In-Coming<br>Global Volunteer",
+          "subtitle4": "<span style=\"font-style: normal;\"><b>Vice President</b></span>",
+          "caption4": "【有些事情現在不做，<br>以後就不會做了】",
+          "button4": "<a data-app-btn=\"true\" href=\"cfacebook.com/profile.php?id=100001887530468\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACT</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<p><span style=\"font-style: normal;\">【Be different, </span></p><p><span style=\"font-style: normal;\">Challenge your potential,&nbsp;</span></p><p><span style=\"font-style: normal;\">我們為自己而戰】</span></p><p><span style=\"font-style: normal;\"><a href=\"https://www.facebook.com/profile.php?id=100000884809053\" target=\"_blank\">CONTACT</a></span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/16996200-1316830741689740-5883844105142757079-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Local Committee<br>President",
+              "authorBio": ""
+            },
+            {
+              "text": "<p><span style=\"font-style: normal;\">【For Youth, By Youth</span></p><p><span style=\"font-style: normal;\">自己的成就自己創造】</span></p><p><span style=\"font-style: normal;\"><br></span></p><p><span style=\"font-style: normal;\"><a href=\"https://www.facebook.com/jack.shih.1656\" target=\"_blank\">CONTACT</a></span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/16865207-1837476803029149-4265593961265895197-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Finance &amp; Legality",
+              "authorBio": "<span style=\"font-style: normal;\">Vice President</span>"
+            },
+            {
+              "text": "<p><span style=\"font-style: normal;\">【打開潘朵拉的盒子,</span></p><p><span style=\"font-style: normal;\">看見世界最美的一面】</span></p><p><span style=\"font-style: normal;\"><br></span></p><p><span style=\"font-style: normal;\"><a href=\"https://www.facebook.com/helena.yiting\" target=\"_blank\">CONTACT</a></span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/16864477-10209395344224007-2242190200838931940-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Talent Management",
+              "authorBio": "<span style=\"font-style: normal;\">Vice President</span>"
+            }
+          ],
+          "_anchor": "testimonials1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true
+          },
+          "title": "Our Back Office Vice Presidents",
+          "subtitle": ""
+        }
+      ]
+    }
+  }
+}
